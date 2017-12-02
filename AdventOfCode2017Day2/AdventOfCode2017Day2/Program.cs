@@ -17,13 +17,17 @@ namespace AdventOfCode2017Day2
 
         static int Checksum(string input)
         {
-            return
-                input.Split('\n')
-                    .TakeWhile(row => row != string.Empty)
-                    .Select(row => row.Split('\t').Select(int.Parse).ToList())
-                    .Select(numbers => numbers.Max() - numbers.Min())
-                    .ToList()
-                    .Sum();
+            var results = new List<int>();
+
+            foreach (var numbers in input.Split('\n').TakeWhile(row => row != string.Empty).Select(row => row.Split('\t').Select(int.Parse).ToList()))
+            {
+                for (var i = 0; i < numbers.Count; i++)
+                {
+                    results.AddRange(from t in numbers.Where((t, j) => j != i) select ((decimal)numbers[i] / (decimal)t) into division where division % 1 == 0 select (int)division);
+                }
+            }
+            
+            return results.Sum();
         }
     }
 }
