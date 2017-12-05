@@ -24,7 +24,7 @@ namespace AdventOfCode2017Day5
                 var currentPointer = pointer;
                 pointer = pointer + currentValue;
 
-                currentValue++;
+                currentValue = currentValue >= 3 ? currentValue - 1 : currentValue + 1;
 
                 instructions[currentPointer] = currentValue.ToString();
                 count++;
