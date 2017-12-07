@@ -8,15 +8,17 @@
     {
         static void Main(string[] args)
         {
-            //var input = File.ReadAllText("c:\\temp\\input.txt");
-            var input = "0\r\n3\r\n0\r\n1\r\n-3";
+           var input = File.ReadAllText("c:\\temp\\input.txt");
+           // var input = "0\r\n3\r\n0\r\n1\r\n-3";
 
             var test = Compute(input);
         }
 
         static int Compute(string input)
         {
-            var instructions = input.Split(new string[] { "\n" }, StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
+            var watch = System.Diagnostics.Stopwatch.StartNew();
+            
+            var instructions = input.Split(new [] { "\n" }, StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
             var pointer = 0;
             var jmps = 0;
 
@@ -28,8 +30,10 @@
                 pointer += value;
                 jmps++;
             }
-
+            watch.Stop();
+            var elapsedMs = watch.ElapsedMilliseconds;
             return jmps;
+            
         }        
     }
 }

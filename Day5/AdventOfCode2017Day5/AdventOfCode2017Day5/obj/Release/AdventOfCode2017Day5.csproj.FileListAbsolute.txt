@@ -1,0 +1,5 @@
+C:\Users\Dan\Desktop\AdventOfCode\AdventOfCode2017\Day5\AdventOfCode2017Day5\AdventOfCode2017Day5\bin\Release\AdventOfCode2017Day5.exe.config
+C:\Users\Dan\Desktop\AdventOfCode\AdventOfCode2017\Day5\AdventOfCode2017Day5\AdventOfCode2017Day5\bin\Release\AdventOfCode2017Day5.exe
+C:\Users\Dan\Desktop\AdventOfCode\AdventOfCode2017\Day5\AdventOfCode2017Day5\AdventOfCode2017Day5\bin\Release\AdventOfCode2017Day5.pdb
+C:\Users\Dan\Desktop\AdventOfCode\AdventOfCode2017\Day5\AdventOfCode2017Day5\AdventOfCode2017Day5\obj\Release\AdventOfCode2017Day5.exe
+C:\Users\Dan\Desktop\AdventOfCode\AdventOfCode2017\Day5\AdventOfCode2017Day5\AdventOfCode2017Day5\obj\Release\AdventOfCode2017Day5.pdb
