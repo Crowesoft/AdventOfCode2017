@@ -10,7 +10,6 @@
         static void Main(string[] args)
         {
             var input = File.ReadAllText("c:\\temp\\input.txt");
-            var test = File.ReadAllText("c:\\temp\\test.txt");
             
             var registers = new Dictionary<string, int>();
             var instructions = input.Split(new[] { "\n" }, StringSplitOptions.RemoveEmptyEntries).Select(line => new Instruction(line)).ToList();
@@ -75,7 +74,7 @@
 
                 registers[instruction.Register] = registerValue;
             }
-            
+
             var largestKey = registers.FirstOrDefault(x => x.Value == registers.Values.Max()).Key;
             var largest = registers.Values.Max();
         }
@@ -97,9 +96,7 @@
             this.ConditionRegister = tmp[0].Trim();
             this.ConditionOperator = tmp[1].Trim();
             this.ConditionValue = int.Parse(tmp[2].Trim());
-
         }
-
         public string Register { get; set; }
         public string Operator { get; set; }
         public int Value { get; set; }
