@@ -1,0 +1,6 @@
+c:\users\dan\documents\visual studio 2015\Projects\AoC2017\AoC2017\bin\Debug\Day9.exe.config
+c:\users\dan\documents\visual studio 2015\Projects\AoC2017\AoC2017\bin\Debug\Day9.exe
+c:\users\dan\documents\visual studio 2015\Projects\AoC2017\AoC2017\bin\Debug\Day9.pdb
+c:\users\dan\documents\visual studio 2015\Projects\AoC2017\AoC2017\obj\Debug\AoC2017.csprojResolveAssemblyReference.cache
+c:\users\dan\documents\visual studio 2015\Projects\AoC2017\AoC2017\obj\Debug\Day9.exe
+c:\users\dan\documents\visual studio 2015\Projects\AoC2017\AoC2017\obj\Debug\Day9.pdb
