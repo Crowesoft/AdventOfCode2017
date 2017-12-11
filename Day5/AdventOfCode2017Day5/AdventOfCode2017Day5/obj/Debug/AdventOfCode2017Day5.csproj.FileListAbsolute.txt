@@ -1,7 +1,0 @@
-c:\users\dan\documents\visual studio 2015\Projects\AdventOfCode2017Day5\AdventOfCode2017Day5\bin\Debug\AdventOfCode2017Day5.exe.config
-C:\Users\Dan\Desktop\AdventOfCode\AdventOfCode2017\Day5\AdventOfCode2017Day5\AdventOfCode2017Day5\bin\Debug\AdventOfCode2017Day5.exe.config
-C:\Users\Dan\Desktop\AdventOfCode\AdventOfCode2017\Day5\AdventOfCode2017Day5\AdventOfCode2017Day5\bin\Debug\AdventOfCode2017Day5.exe
-C:\Users\Dan\Desktop\AdventOfCode\AdventOfCode2017\Day5\AdventOfCode2017Day5\AdventOfCode2017Day5\bin\Debug\AdventOfCode2017Day5.pdb
-C:\Users\Dan\Desktop\AdventOfCode\AdventOfCode2017\Day5\AdventOfCode2017Day5\AdventOfCode2017Day5\obj\Debug\AdventOfCode2017Day5.csprojResolveAssemblyReference.cache
-C:\Users\Dan\Desktop\AdventOfCode\AdventOfCode2017\Day5\AdventOfCode2017Day5\AdventOfCode2017Day5\obj\Debug\AdventOfCode2017Day5.exe
-C:\Users\Dan\Desktop\AdventOfCode\AdventOfCode2017\Day5\AdventOfCode2017Day5\AdventOfCode2017Day5\obj\Debug\AdventOfCode2017Day5.pdb
